@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Cédula de identificación Especie Bovina, Ovina y Caprina</title>
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/css/bootstrap.css'> 
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">  
+    
+    
+    <div id="contenedor">
+        <header>
+            <img src="http://ugrcatazaja.com/logo%20SINIIGA.gif">
+            <h3><b>Sistema Nacional de Identificación Individual del Ganado</b></h3>
+        </header> 
+        
+        <form>
+            <div class="propietario">
+                <p>Clave de UPP: </p>   
+                <input type="text" name="claveUPP" placeholder="Ingrese clave"> <br />
+                
+                <p>Nombre del Productor: </p>   
+                <input type="text" name="nombreproductor" placeholder="Ingrese Nombre"> <br />  
+                
+                <p>Nombre del Predio: </p>   
+                <input type="text" name="nombrepredio" placeholder="Ingrese Nombre del predio"> <br />
+                
+                <p>Nombre de Técnico Identificador: </p>   
+                <input type="text" name="nombretecnico" placeholder="Ingrese Nombre"> <br />
+                
+                <p>Serie del: </p>   
+                <input type="text" name="seriedel" placeholder="Ingrese serie" class="input_48"> 
+                
+                <p>AL: </p>   
+                <input type="text" name="AL" placeholder="Ingrese AL" class="input_48"> <br />
+                
+                <p>Total Paq.Completos: </p>   
+                <input type="number" name="totalpaq" placeholder="Ingrese Numero de paquetes" class="input_48"> 
+                
+                <p>Fecha Aretado: </p>   
+                <input type="date" name="fechaaretado" placeholder="Ingrese Fecha" class="input_48"> <br />
+                
+            </div>
+            
+            <div class="ganado">
+                <p>Número de Siniiga: </p>   
+                <input type="text" name="numerosiniga" placeholder="Ingrese Numero de siniiga" required="Campo obligatorio"> <br />
+                
+                <p>Arete Campaña: </p>   
+                <input type="text" name="aretecampaña" placeholder="Ingrese dato de Arete campaña" required="Campo obligatorio"> <br />
+                
+                <p>Fecha de Nacimiento: </p>   
+                <input type="date" name="fechanac" required="Campo obligatorio"> <br />
+                   
+                <div class="radio">               
+                    <p>Sexo: </p> 
+                    <form>
+                    <input type="radio" name="sexo" value="male" checked> Macho<br>
+                    <input type="radio" name="sexo" value="female"> Hembra<br> </form>                  
+                </div> 
+                
+                <p>Raza: </p>   
+                <input type="text" name="raza" placeholder="Ingrese la Raza" required="Campo obligatorio"> <br />
+                
+                <p>Especificar Raza/Cruza: </p>   
+                <input type="text" name="especificarraza" placeholder="Especifique raza/cruza" required="Campo obligatorio"> <br />
+                
+                <p>Empadre: </p>   
+                <input type="text" name="empadre" placeholder="Especifique empadre"> <br />
+                
+                <p>Raza o número de Siniiga </p>  
+                <p>Padre:</p>
+                <input type="text" name="razapadre" placeholder="Ingrese raza o numero de siniiga"> <br />
+                <p>Madre:</p>
+                <input type="text" name="razamadre" placeholder="Ingrese raza o numero de siniiga"> <br />
+            </div>
+            
+            <div class="boton">
+                <input type="submit" value="Guardar" name="boton">
+            </div>
+        </form>
+            
+        
+    </div>  
+    
+  
+    <script  src="js/index.js"></script>
+    
+</body>
+</html>
