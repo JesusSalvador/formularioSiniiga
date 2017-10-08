@@ -1,94 +1,95 @@
-*{
+{
     margin: 0;
     padding: 0;    
 }
 body{
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;    
+    padding: 0;  
+    background: #204862;
 }
-#contenedor{
-    width: 50%;
-    margin: 0 auto;
-    background: #2c2c2c;
-    padding: 30px;
+.container{
     border-radius: 7px;
-    justify-content: space-between;
+    background: #204862;
 }
-#contenedor>header{
+.page-header{
     text-align: center;
     color: #fff;
-    background:  #55AADB;
-    max-height: 80%;
-    max-width: 100%;
-   /* font-weight: 100;*/
+    background: deepskyblue;  
+    font-weight: 100;
+    margin: 0;
+    margin-top: 15px;
+    border-radius: 7px;
+    border-bottom: 5px solid crimson;
 }
 img{
-    max-width: 30%;
-    max-height: 30%;
-    min-width: 25%;
-    min-height: 25%
+    max-width: 20%;
+    max-height: 20%;
+    min-width: 12%;
+    min-height: 12%
 }
 
 .propietario{
-    background: #;
-}
-p{
-    color: #fff;
-    width: 100%;
-    margin-top: 12px;
-}
-input{
-    margin-top: 2px;
-    width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-    flex-wrap: wrap;
+    background: #ffffff;
     border-radius: 7px;
+    margin-top: 0px;
+    padding: 15px;
+    margin-bottom: auto;
+    margin-right: auto;
 }
-input_48{
-    width: 40%;
-}
-form{
-    width: 95%;
-    max-width: 500px;
-    margin:auto;
-    background: ;    
+.ganado{
+    background: #ffffff;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 15px;
 }
 h3{
-  /*  max-width: 100%;
+    /*max-width: 80%;
     max-height: 80%;*/
     text-align: center;
     align-content: auto;
+    font-size: 4.5vh;/*para adaaptar el tamaño del texto a la resolución*/
+}
+h4{
+    width: auto;
+    height: auto;
+    text-align: center;
+    /*font-size: 3vh;para adaptar el tamaño del texto a la resolución*/
 }
 .boton{
     height: 60px;
     font-size: 100%;
     color: #fff;
-    text-align: center;    
+    text-align: center; 
+    font-size: 3.0vh;
 }
 input[type="submit"]{
     text-align: center;
     margin-top: 12px;
+    margin-bottom: 12px;
     width: 120px;
     height: 40px;
-    color=#fff;
-    background: #144cB3;
-    background: linear-gradiente(#144cB3,#2daBea);
+    color: #ffffff;
+    background: #2daBea;    
     float: right;
-    border: 0;
+    border: 2px;    
+    transition: background .5s, color .5s; 
 }
-.input[type="radio"]{
-    color: #ffffff;   
+input[type="submit"]:hover{
+    background: #144cB3;   
+    border: 3px;
+    border-bottom-color: #2daBea;
+}
+.radio>label{
+    margin-right: 10px;
+    padding-right: 10px;
 }
 .radio{
-    text-align: auto;
-    color: #fff;
-    width: 170px;
+    margin-left: 10px;
 }
-
-
+/*select{
+    max-width: 80%;
+}*/
 /*
 .tasks, 
 .sorts,
